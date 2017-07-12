@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Menu Item Border dimensions -->
+    <dimen name="border">4dp</dimen>
+
+    <!-- Menu Item Text dimensions -->
+    <dimen name="menuItemTopPadding">2dp</dimen>
+    <dimen name="menuItemBottomPadding">2dp</dimen>
+    <dimen name="menuItemTopMargin">2dp</dimen>
+    <dimen name="menuItemBottomMargin">2dp</dimen>
+    <dimen name="menuItemTextSize">50dp</dimen>
+    <dimen name="menuItemTextButtonSpacing">8dp</dimen>
+
+    <!-- Board dimensions -->
+    <dimen name="cellWidth">100dp</dimen>
+    <dimen name="cellHeight">100dp</dimen>
+    <dimen name="edgeThickness">8dp</dimen>
+    <dimen name="cellPadding">8dp</dimen>
+
+    <!-- Game Over Text dimensions -->
+    <dimen name="gameOverTitle">50sp</dimen>
+    <dimen name="titleText">50sp</dimen>
+    <dimen name="gameOverTextSize">10sp</dimen>
+
+</resources>

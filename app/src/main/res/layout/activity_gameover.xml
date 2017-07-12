@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOffWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOffWhite"
+        android:text="@string/gameover_title"
+        android:textSize="@dimen/gameOverTitle"
+        android:gravity="center"
+        android:id="@+id/gameover_title"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorOffWhite">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menuItemTextButtonSpacing"
+            android:background="@color/colorBlack">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/border"
+                android:background="@color/colorOffWhite">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gameover_again"
+                    android:id="@+id/gameover_again"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/menuItemTopMargin"
+                    android:layout_marginBottom="@dimen/menuItemBottomMargin"
+                    android:paddingTop="@dimen/menuItemTopPadding"
+                    android:paddingBottom="@dimen/menuItemBottomPadding"
+                    android:textSize="@dimen/menuItemTextSize" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/menuItemTextButtonSpacing"
+            android:background="@color/colorBlack">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/border"
+                android:background="@color/colorOffWhite">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gameover_back"
+                    android:id="@+id/gameover_back"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/menuItemTopMargin"
+                    android:layout_marginBottom="@dimen/menuItemBottomMargin"
+                    android:paddingTop="@dimen/menuItemTopPadding"
+                    android:paddingBottom="@dimen/menuItemBottomPadding"
+                    android:textSize="@dimen/menuItemTextSize" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
